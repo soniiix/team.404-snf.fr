@@ -10,6 +10,7 @@
 </head>
 
 <body class="font-montserrat">
+    <!-- HEADER -->
     <header class="flex flex-row justify-center bg-slate-100 h-[6rem]">
         <navbar class="flex flex-grid items-center text-lg gap-[128px] ">
             <a href="#projet" class="p-2.5 rounded-lg hover:bg-gray-200 font-montserrat">Le projet</a>
@@ -21,33 +22,38 @@
     </header>
 
     <main>
-        <section class="relative bg-gradient-to-r from-purple-500 to-indigo-600 text-white py-20">
-        <div class="container mx-auto px-6 text-center">
-            <h1 class="text-4xl font-bold mb-4">404 SNF</h1>
-            <p class="text-lg mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <a href="https://staging.404-snf.fr/" class="inline-block bg-white text-purple-600 font-semibold py-3 px-8 rounded-xl hover:bg-gray-100">Accéder au site</a>
-        </div>
+        <!-- HERO -->
+        <section id="hero" class="h-full text-black py-20 text-black">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="font-macondo text-5xl font-bold mb-8">Une nuit au fin fond de l'Océan</h1>
+                <div>
+                    <a href="https://staging.404-snf.fr/" class="inline-block bg-[#5627E2] bg-gradient-to-r from-[rgba(245,73,99,0)] to-[rgba(0,0,0,0.2)] text-white font-semibold py-3 px-8 rounded-xl mr-4">Accéder au site</a>
+                    <a href="#projet" class="inline-block bg-[#E6DFFB] border-[#5627E2] border-2 text-[#5627E2] font-semibold py-3 px-8 rounded-xl">En savoir plus</a>
+                </div>
+            </div>
         </section>
 
         <!-- PROJET -->
         <section id="projet" class="bg-white flex flex-col items-center">
             <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-12 lg:px-6">
-                
+                  
                 <div class="card flex flex-row p-8 rounded-xl">
                     <div class="flex flex-row">
                         <div class="flex flex-col justify-start align-start mr-16">
                             <h2 class="text-3xl font-bold mb-4">Le projet</h2>
                             <p class="mb-8">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, aperiam ab? Adipisci, error incidunt.
+                                Notre projet, c'est des podcasts pour réfléchir et un jeu pour agir. Votre mission dans le jeu : nettoyer l'océan en réduisant la pollution et en restaurant l'équilibre écologique. Chaque action compte, avec des impacts sur l'environnement et la santé humaine. À vous de jouer pour réconcilier la planète et nos corps ! 
                             </p>
+                            <span class="mb-8">
+                                <strong>La Stack</strong> : Vue.js, Nuxt, Tailwind CSS, Figma, Docker, Symfony, Github
+                            </span>
                             <div class="flex flex-row">
-                                <a href="https://staging.404-snf.fr/" class=" bg-[#5627E2] text-white font-semibold py-3 px-8 rounded-xl">Accéder au site</a>
+                                <a href="https://staging.404-snf.fr/" class=" bg-[#5627E2] bg-gradient-to-r from-[rgba(245,73,99,0)] to-[rgba(0,0,0,0.2)] text-white font-semibold py-3 px-8 rounded-xl mr-4">Accéder au site</a>
                             </div>
                         </div>
                         
-
                         <div class="flex flex-col">
-                            <img src="resources/images/projet-example.png"></img>
+                            <img class="h-44" src="resources/images/projet-example.png"></img>
                         </div>
                     </div>  
                 </div>
@@ -257,16 +263,60 @@
         </section>
 
         <!-- ALBUM PHOTO -->
-        <section id="reseaux" class="bg-white flex flex-col items-center">
+        <section id="album" class="bg-white flex flex-col items-center">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-12 lg:px-6">
                 <div class="mx-auto max-w-screen-sm lg:mb-16">
                     <h2 class="text-3xl font-bold mb-4">Album photo</h2>
                 </div>
 
                 <div class="card flex flex-row p-8 rounded-xl">
-                    <div class="grid gap-8 lg:gap-16 grid-cols-2 items-center">
-                        
-                    </div>  
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="grid gap-4">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album2.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid gap-4">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album4.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album5.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid gap-4">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album7.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="grid gap-4">
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                            <div>
+                                <img class="h-auto max-w-full rounded-lg" src="resources/images/album/album1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+ 
                 </div>
                 
             </div>
