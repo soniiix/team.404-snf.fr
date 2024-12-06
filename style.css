@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('resources/fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#equipe {
+  background: linear-gradient(85deg, rgba(221, 214, 245, 0.40) 0.95%, rgba(221, 214, 245, 0.00) 99.74%);
+}
+
+#reseaux .card{
+  background: var(--glassmorphism-fond, linear-gradient(85deg, rgba(221, 214, 245, 0.40) 0.95%, rgba(221, 214, 245, 0.00) 99.74%));
+
+  /* glassmorphism bg blur */
+  backdrop-filter: blur(20px);
+}
+
+#projet .card{
+  background: linear-gradient(85deg, rgba(221, 214, 245, 0.40) 0.95%, rgba(221, 214, 245, 0.00) 99.74%);
+}
